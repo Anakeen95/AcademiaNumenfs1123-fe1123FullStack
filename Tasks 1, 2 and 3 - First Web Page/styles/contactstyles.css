@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    list-style-type: none;
+}
+.nav-img {
+    width: 50px;
+    height: 50px;
+}
+a .tooltiptext {
+    visibility: hidden;
+    width: 10%;
+    margin-top: 50px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s;
+}
+a:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+    display: flex;
+}
+li {
+    margin: 1%;
+}
+p {
+    margin-top: 5px;
+    color: #666;
+  }
+#info-list li {
+    margin-left: 2%;
+    list-style-type: none;
+}
+.contact-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20%;
+}
+.form {
+    display: grid;
+    margin-top: 1%;
+    width: 17%;
+    margin-left: 10px;
+    background-color: #e4e2e2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

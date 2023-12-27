@@ -3,51 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/contactstyles.css">
     <title>Ignacio Perez Civeira - Currículum Vitae (CV) Contact</title>
 </head>
 <body>
-    <nav>
-        <ul>
+    <nav id="navbar">
+        <ul class="navbar">
             <li>
-                <a href="./index.html">Inicio</a>
+                <a href="./index.html">
+                    <span class="tooltiptext">Inicio</span>
+                    <img src="./images/Home Image.png" alt="home" class="nav-img">
+                </a>
             </li>
             <li>
-                <a href="./education.html">Educación</a>
+                <a href="./education.html">
+                    <span class="tooltiptext">Educación</span>
+                    <img src="./images/Education Image.png" alt="education" class="nav-img">
+                </a>
             </li>
             <li>
-                <a href="./experience.html">Experiencia Laboral</a>
+                <a href="./experience.html">
+                    <span class="tooltiptext">Experiencia</span>
+                    <img src="./images/Work Image.png" alt="work" class="nav-img">
+                </a>
             </li>
             <li>
-                <a href="./skills.html">Habilidades</a>
+                <a href="./skills.html">
+                    <span class="tooltiptext">Habilidades</span>
+                    <img src="./images/Skills Image.png" alt="skills" class="nav-img">
+                </a>
             </li>
             <li>
-                <a href="./contact.html">Contacto</a>
+                <a href="./contact.html">
+                    <span class="tooltiptext">Contacto</span>
+                    <img src="./images/Contact Image.png" alt="contact" class="nav-img">
+                </a>
             </li>
         </ul>
     </nav>
-    <section>
+    <section id="info">
         <h2>Información de Contacto</h2>
-        <ul>
+        <ul id="info-list">
             <li>
-                Dirección: Springfield, Simpsonslandia, Calle Falsa 123
-                <img src="./images/Location Image.png" alt="My Location" style="width: 50px;height: 50px;">
+                <p>
+                    <strong>Dirección:</strong>
+                </p>
+                <a href="http://maps.google.com/?q=Springfield Simpsonslandia Calle Falsa 123">
+                    <span class="tooltiptext">Springfield, Simpsonslandia, Calle Falsa 123</span>
+                    <img src="./images/Location Image.png" alt="My Location" class="contact-img">
+                </a>
             </li>
             <li>
-                Teléfono: +(123) 456-7890
-                <img src="/images/Phone Image.png" alt="My Phone" style="width: 50px;height: 50px;">
+                <p>
+                    <strong>Teléfono:</strong>
+                </p>
+                <a href="https://api.whatsapp.com/send?phone=1557715763&text=Send20%a20%quote">
+                    <span class="tooltiptext">+54(911)5771-5763</span>
+                    <img src="/images/Phone Image.png" alt="My Phone" class="contact-img">
+                </a>
             </li>
             <li>
-                Correo Electrónico: nachus95@hotmail.com
-                <img src="./images/Mail Image.png" alt="My Email" style="width: 50px;height: 50px;">
+                <p>
+                    <strong>Correo Electrónico:</strong>
+                </p>
+                <a href="mailto:nachus95@hotmail.com">
+                    <span class="tooltiptext">nachus95@hotmail.com</span>
+                    <img src="./images/Mail Image.png" alt="My Email" class="contact-img">
+                </a>
             </li>
             <li>
-                Sitio Web: www.nachito.com
-                <img src="./images/Website Image.png" alt="My Site" style="width: 50px;height: 50px;">
+                <p>
+                    <strong> Sitio Web:</strong>
+                </p>
+                <a href="www.nachito.com">
+                    <span class="tooltiptext">www.nachito.com</span>
+                    <img src="./images/Website Image.png" alt="My Site" class="contact-img">
+                </a>
             </li>
         </ul>
     </section>
-    <h2>Formulario para Contactarme</h2>
-    <form action="#" method="post" style="display: grid;margin-top: 1%;width: 17%;">
+    <h2 class="form-title">Formulario para Contactarme</h2>
+    <form id="contact-form" action="#" method="post" class="form">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="name" required>
         

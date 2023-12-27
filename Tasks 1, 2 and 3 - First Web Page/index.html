@@ -3,105 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/indexstyles.css">
     <title>Ignacio Perez Civeira - Currículum Vitae (CV) Home</title>
 </head>
 <body>
-    <nav>
-        <ul>
+    <nav id="navbar">
+        <ul class="navbar">
             <li>
-                <a href="./index.html">Inicio</a>
+                <a href="./index.html">
+                    <span class="tooltiptext">Inicio</span>
+                    <img src="./images/Home Image.png" alt="home" class="nav-img">
+                </a>
             </li>
             <li>
-                <a href="./education.html">Educación</a>
+                <a href="./education.html">
+                    <span class="tooltiptext">Educación</span>
+                    <img src="./images/Education Image.png" alt="education" class="nav-img">
+                </a>
             </li>
             <li>
-                <a href="./experience.html">Experiencia Laboral</a>
+                <a href="./experience.html">
+                    <span class="tooltiptext">Experiencia</span>
+                    <img src="./images/Work Image.png" alt="work" class="nav-img">
+                </a>
             </li>
             <li>
-                <a href="./skills.html">Habilidades</a>
+                <a href="./skills.html">
+                    <span class="tooltiptext">Habilidades</span>
+                    <img src="./images/Skills Image.png" alt="skills" class="nav-img">
+                </a>
             </li>
             <li>
-                <a href="./contact.html">Contacto</a>
+                <a href="./contact.html">
+                    <span class="tooltiptext">Contacto</span>
+                    <img src="./images/Contact Image.png" alt="contact" class="nav-img">
+                </a>
             </li>
         </ul>
     </nav>
-    <header>
-        <center>
-            <h1>Ignacio Perez Civeira Curriculum Vitae (CV)</h1>
-            <p>Desarrollador de Software Web Full Stack con experiencia en React, JavaScript, SQL, MongoDB y Node</p>
-        </center>
+    <header id="header">
+        <h1>Ignacio Perez Civeira Curriculum Vitae (CV)</h1>
+        <p>Desarrollador de Software Web Full Stack con experiencia en React, JavaScript, SQL, MongoDB y Node</p>
     </header>
     <hr>
-    <center>
-        <h2>Galería de Fotos</h2>
-    </center>
-    <center>
-        <table style="width: 20%;border-collapse: collapse;margin-top: 20px;">
-            <thead>
-                <tr style="border: 1px solid black;padding: 8px;text-align: left;">
-                    <th style="border: 1px solid black;padding: 8px;text-align: left;">Número</th>
-                    <th style="border: 1px solid black;padding: 8px;text-align: left;">Imagen</th>
-                    <th style="border: 1px solid black;padding: 8px;text-align: left;">Descripción</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr style="border: 1px solid black; padding: 8px;text-align: left;">
-                    <td style="border: 1px solid black; padding: 8px;text-align: center;">1</td>
-                    <td style="border: 1px solid black; padding: 8px;text-align: left;">
-                        <img src="./images/CV Image.png" alt="My CV Image" style="max-width: 88%;height: auto;">
-                    </td>
-                    <td style="border: 1px solid black; padding: 8px;text-align: left;">Imagen Principal mia</td>
-                </tr>
-                <tr style="border: 1px solid black; padding: 8px;text-align: left;">
-                    <td style="border: 1px solid black; padding: 8px;text-align: center;">2</td>
-                    <td style="border: 1px solid black; padding: 8px;text-align: left;"> 
-                        <img src="./images/JS Image.png" alt="JavaScript Image" style="max-width: 88%;height: auto;">
-                    </td>
-                    <td style="border: 1px solid black; padding: 8px;text-align: left;">JavaScript es un lenguaje de programación</td>
-                </tr>
-                <tr style="border: 1px solid black; padding: 8px;text-align: left;">
-                    <td style="border: 1px solid black; padding: 8px;text-align: center;">3</td>
-                    <td style="border: 1px solid black; padding: 8px;text-align: left;">
-                        <img src="./images/React Image.png" alt="React Image" style="max-width: 88%;height: auto;">
-                    </td>
-                    <td style="border: 1px solid black; padding: 8px;text-align: left;">React es un framework para desarrollo FrontEnd</td>
-                </tr>
-                <tr style="border: 1px solid black; padding: 8px;text-align: left;">
-                    <td style="border: 1px solid black; padding: 8px;text-align: center;">4</td>
-                    <td style="border: 1px solid black; padding: 8px;text-align: left;">
-                        <img src="./images/SQL Image.png" alt="SQL Image" style="max-width: 88%;height: auto;">
-                    </td>
-                    <td style="border: 1px solid black; padding: 8px;text-align: left;">SQL es un motor de base de datos de tipo relacional</td>
-                </tr>
-                <tr style="border: 1px solid black; padding: 8px;text-align: left;">
-                    <td style="border: 1px solid black; padding: 8px;text-align: center;">5</td>
-                    <td style="border: 1px solid black; padding: 8px;text-align: left;">
-                        <img src="./images/Mongo Image.png" alt="MongoDB Image" style="max-width: 88%;height: auto;">
-                    </td>
-                    <td style="border: 1px solid black; padding: 8px;text-align: left;">MongoDB es un motor de base de datos de tipo no relacional</td>
-                </tr>
-            </tbody>
-        </table>
-    </center>
+    <h2>Galería de Fotos</h2>
+    <table id="photos-gallery">
+        <thead>
+            <tr>
+                <th>Número</th>
+                <th>Imagen</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>
+                    <img src="./images/CV Image.png" alt="My CV Image">
+                </td>
+                <td>Imagen Principal mia</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> 
+                    <img src="./images/JS Image.png" alt="JavaScript Image">
+                </td>
+                <td>JavaScript es un lenguaje de programación</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <img src="./images/React Image.png" alt="React Image">
+                </td>
+                <td>React es un framework para desarrollo FrontEnd</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    <img src="./images/SQL Image.png" alt="SQL Image">
+                </td>
+                <td>SQL es un motor de base de datos de tipo relacional</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>
+                    <img src="./images/Mongo Image.png" alt="MongoDB Image">
+                </td>
+                <td>MongoDB es un motor de base de datos de tipo no relacional</td>
+            </tr>
+        </tbody>
+    </table>
     <hr>
-    <section>
-        <center>
-            <h2>Redes Sociales</h2>
-        </center>
-        <ul>
+    <section id="social-media">
+        <h2>Redes Sociales</h2>
+        <ul class="social-media">
             <li>
-                <a href="https://www.facebook.com/ignacio.perez.180/">Facebook</a>
+                <a href="https://www.facebook.com/ignacio.perez.180/">
+                    <span class="tooltiptext">Facebook</span>
+                    <img src="./images/Facebook Image.png" alt="My Facebook" class="social-media-img">
+                </a>
             </li>
             <li>
-                <a href="https://www.instagram.com/natcheo_perez/">Instagram</a>
+                <a href="https://www.instagram.com/natcheo_perez/">
+                    <span class="tooltiptext">Instagram</span>
+                    <img src="./images/Instagram Image.png" alt="My Instagram" class="social-media-img">
+                </a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/ignacio-perez-civeira-41a068114/">Linkedin</a>
+                <a href="https://www.linkedin.com/in/ignacio-perez-civeira-41a068114/">
+                    <span class="tooltiptext">Linkedin</span>
+                    <img src="./images/Linkedin Image.png" alt="My Linkedin" class="social-media-img">
+                </a>
             </li>
         </ul>
     </section>
-    <footer>
-        <p>Última actualización: 18/12/2023</p>
+    <footer id="footer">
+        <p>Última actualización: 26/12/2023</p>
     </footer>
 </body>
 </html>

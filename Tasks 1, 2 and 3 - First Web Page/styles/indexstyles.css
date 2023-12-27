@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    list-style-type: none;
+}
+.nav-img {
+    width: 50px;
+    height: 50px;
+}
+a .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    margin-top: 50px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s;
+}
+a:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+    display: flex;
+}
+li {
+    margin: 1%;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+header p {
+    margin-top: 5px;
+    color: #666;
+}
+h2 {
+    text-align: center;
+}
+table {
+    margin: 40%;
+    width: 20%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 1%;
+}
+tr {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+td {
+    border: 1px solid black; 
+    padding: 8px;
+    text-align: center;
+}
+img {
+    max-width: 88%;
+    height: auto
+}
+.social-media {
+    margin-left: 850px;
+    list-style-type: none;
+}
+.social-media-img {
+    width: 50px;
+    height: 50px;
+}

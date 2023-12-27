@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    list-style-type: none;
+}
+.nav-img {
+    width: 50px;
+    height: 50px;
+}
+a .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    margin-top: 50px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s;
+}
+a:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+h2 {
+    padding-bottom: 5px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+    display: flex;
+}
+#education ul {
+    padding: 1px;
+    display: block;
+    margin: 1%;
+}
+li {
+    margin: 1%;
+}
+p {
+    margin-top: 5px;
+    color: #666;
+}
+#education {
+    background-color: #e4e2e2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

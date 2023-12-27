@@ -3,34 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/skillsstyles.css">
     <title>Ignacio Perez Civeira - Currículum Vitae (CV) Skills</title>
 </head>
 <body>
-    <nav>
-        <ul>
+    <nav id="navbar">
+        <ul class="navbar">
             <li>
-                <a href="./index.html">Inicio</a>
+                <a href="./index.html">
+                    <span class="tooltiptext">Inicio</span>
+                    <img src="./images/Home Image.png" alt="home" class="nav-img">
+                </a>
             </li>
             <li>
-                <a href="./education.html">Educación</a>
+                <a href="./education.html">
+                    <span class="tooltiptext">Educación</span>
+                    <img src="./images/Education Image.png" alt="education" class="nav-img">
+                </a>
             </li>
             <li>
-                <a href="./experience.html">Experiencia Laboral</a>
+                <a href="./experience.html">
+                    <span class="tooltiptext">Experiencia</span>
+                    <img src="./images/Work Image.png" alt="work" class="nav-img">
+                </a>
             </li>
             <li>
-                <a href="./skills.html">Habilidades</a>
+                <a href="./skills.html">
+                    <span class="tooltiptext">Habilidades</span>
+                    <img src="./images/Skills Image.png" alt="skills" class="nav-img">
+                </a>
             </li>
             <li>
-                <a href="./contact.html">Contacto</a>
+                <a href="./contact.html">
+                    <span class="tooltiptext">Contacto</span>
+                    <img src="./images/Contact Image.png" alt="contact" class="nav-img">
+                </a>
             </li>
         </ul>
     </nav>
-    <section>
+    <section id="skills">
         <h2>Habilidades Técnicas</h2>
-        <ul>
-            <li>HTML5, CSS3, JavaScript con 5 años de experiencia.</li>
-            <li>React, Node.js con 3 años de experiencia.</li>
-            <li>Base de datos SQL (SQL Server, MySQL & PostgreSQL) y NoSQL (Elasticsearch & MongoDB) con 4 años de experiencia.</li>
+        <ul id="skills-list">
+            <li>
+                <strong>Front-End</strong>
+                <p>
+                    HTML5, CSS3, JavaScript con 5 años de experiencia.
+                </p>
+                <img src="./images/HTML, CSS & JS Image.png" alt="Front-End Skills" class="skills-img-front">
+            </li>
+            <li>
+                <strong>Frameworks</strong>
+                <p>
+                    React, Node.js con 3 años de experiencia.
+                </p>
+                <img src="./images/React and Node Image.png" alt="Framework Skills" class="skills-img-framework">
+            </li>
+            <li>
+                <strong>Bases de Datos</strong>
+                <p>
+                    Base de datos SQL (SQL Server, MySQL & PostgreSQL) y NoSQL (Elasticsearch & MongoDB) con 4 años de experiencia.
+                </p>
+                <img src="./images/Mongo SQL Image.png" alt="DB Skills" class="skills-img-db">
+            </li>
         </ul>
     </section>
 </body>
